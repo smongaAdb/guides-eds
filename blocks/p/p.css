@@ -1,1 +1,12 @@
 /*add the styling of paragraph(p) block here*/
+.p.right-image-text-side-by-side.block > div > div,  .p.left-image-text-side-by-side.block > div > div {
+  display: flex;
+}
+
+.p.left-image-text-side-by-side.block > div > div > p:nth-child(1) {
+  flex-shrink: 0;
+}
+
+.p.right-image-text-side-by-side.block > div > div > p:nth-child(1) {
+  flex-shrink: 0;
+}
