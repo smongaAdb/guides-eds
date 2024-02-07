@@ -3,7 +3,7 @@
   display: flex;
 }
 
-.p.left-image-text-side-by-side.block > div > div > p:nth-child(1) {
+.p.left-image-text-side-by-side.block > div > div > p:nth-child(2) {
   flex-shrink: 0;
 }
 
