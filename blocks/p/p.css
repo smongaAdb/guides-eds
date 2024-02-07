@@ -3,10 +3,10 @@
   display: flex;
 }
 
-.p.left-image-text-side-by-side.block > div > div > p:nth-child(2) {
+.p.left-image-text-side-by-side.block > div > div > p:nth-child(1) {
   flex-shrink: 0;
 }
 
-.p.right-image-text-side-by-side.block > div > div > p:nth-child(1) {
+.p.right-image-text-side-by-side.block > div > div > p:nth-child(2) {
   flex-shrink: 0;
 }
