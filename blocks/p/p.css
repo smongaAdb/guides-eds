@@ -10,3 +10,7 @@
 .p.right-image-text-side-by-side.block > div > div > p:nth-child(2) {
   flex-shrink: 0;
 }
+
+.p {
+  background-color: aliceblue;
+}
