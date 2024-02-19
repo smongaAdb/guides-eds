@@ -1,6 +1,6 @@
 import { migrateTree } from "../utils.js";
-const treeData = [{"displayName":"Personal Spaceship Operations Manual","url":"contents/traveldita/cover/personal-spaceship-operations-manual"}]
-const mapTitle = "franklin_map"
+const treeData = [{"displayName":"Legal","url":"contents/traveldita-flatlist/legal"},{"displayName":"Overview","url":"contents/traveldita-flatlist/overview"},{"displayName":"History of Flight","url":"contents/traveldita-flatlist/history-of-flight"},{"displayName":"Escape System","url":"contents/traveldita-flatlist/escape-system"},{"displayName":"Engine Limitations","url":"contents/traveldita-flatlist/engine-limitations"},{"displayName":"Crew and passenger system","url":"contents/traveldita-flatlist/crew-and-passenger-system"},{"displayName":"Contacts","url":"contents/traveldita-flatlist/contacts"},{"displayName":"Vehicle Structure","url":"contents/traveldita-flatlist/vehicle-structure"},{"displayName":"Legal","url":"contents/traveldita-flatlist/landing-system"},{"displayName":"Twisting image paragraph","url":"contents/traveldita-flatlist/twisting-image-paragraph"},{"displayName":"TopicWithLinesTag","url":"contents/traveldita-flatlist/topicwithlinestag"}]
+const mapTitle = "TravelDita-FlatListMap"
 const isDesktop = window.matchMedia("(min-width: 900px)");
 
 function expandHeirarchy(element, root) {
