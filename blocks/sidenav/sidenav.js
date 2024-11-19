@@ -1,6 +1,6 @@
 import { migrateTree } from "../utils.js";
-const treeData = [{"displayName":"topic1","url":"contents/topic1"}]
-const mapTitle = "openmap"
+const treeData = [{"displayName":"Adobe India","url":"contents/adobe-india"}]
+const mapTitle = "html5_generation"
 const isDesktop = window.matchMedia("(min-width: 900px)");
 
 function expandHeirarchy(element, root) {
